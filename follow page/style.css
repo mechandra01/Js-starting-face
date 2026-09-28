@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+,body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#follow {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#follow img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#follow h2 {
+    text-align: center;
+}
+
+#follow h3 {
+    text-align: center;
+    margin-top: 7px;
+    color: red;
+}
+
+#follow button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
